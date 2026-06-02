@@ -7,7 +7,7 @@ ISS, GEO, and Molniya orbital parameters.
 ## Features
 - Perifocal to ECI frame transformation from Keplerian elements
 - RK4 numerical propagator with J2 perturbation modeling
-- Orbital energy (with J2 potential correction) and angular momentum conservation — 0.0% CV across all test cases
+- Orbital energy (with J2 potential correction) and angular momentum conservation: 0.0% coefficient of variation (CV) across all test cases
 - RAAN and AOP secular drift computation via linear regression (np.polyfit)
 - 3D orbital trajectory visualization and 2D ground track mapping
 - Telemetry pipeline (altitude, velocity, time) exported to CSV
